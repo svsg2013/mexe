@@ -1,0 +1,59 @@
+ul.releaseNews li i {
+    color: red;
+}
+
+div.captionCustom h4 {
+    margin-bottom: 0;
+}
+
+div.captionCustom span.price_custom {
+    color: red;
+    text-align: center;
+    display: block;
+    font-weight: 600;
+}
+
+.boxContact {
+    border: 1px dashed #e5e5e5;
+    font-size: 20px;
+}
+
+.boxContact span {
+    padding-left: 5px;
+}
+
+.boxContact > span:last-child {
+    color: #999999;
+    font-size: 12px;
+}
+
+/*.changImg {*/
+    /*height: 180px;*/
+/*}*/
+
+/*.changImg img {*/
+    /*max-height: 180px;*/
+    /*max-width: 100%;*/
+/*}*/
+.price{
+    padding: 0 2px;
+}
+.releaseNews h2{
+    display: inline;
+    font-size: 14px;
+    margin: 5px 0px;
+}
+.releaseNews h2:before{
+    content: none;
+}
+
+ul.post-menu{
+    list-style: none;
+}
+ul.releaseNews{
+    list-style: none;
+    padding-left: 5px;
+}
+div.tabthongtinchitiet {
+    text-align: justify;
+}

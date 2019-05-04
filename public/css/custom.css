@@ -1,0 +1,87 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+/*
+    chinh noi dung content trong blog single
+ */
+div.entry-title{
+    padding-bottom: 0.9375em;
+}
+section#content ul#list-news li {
+    list-style: none;
+    display: block;
+    position: relative;
+    padding-left: 0.75em;
+}
+section#content ul#list-news li > i{
+    font-size: 0.25em;
+    color: #1ABC9C;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+section#content ul#list-news li > a{
+    color: #555;
+}
+section#content ul#list-news li > a:hover{
+    color: #1ABC9C;
+ }
+.entry-content p {
+    margin-bottom: 0.9375em;
+}
+.entry-content blockquote {
+    padding: 5px 20px;
+    margin: 0 0 20px;
+    font-size: 17px;
+    border-left: 5px solid #EEE;
+}
+section#content ul.entry-meta{
+    margin: 0px;
+}
+section#content .entry-content{
+    margin-top: 0px;
+}
+section#content .lineCustom{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+section#content .prices > li{
+    color: #7c1212;
+    font-size: 14px;
+    font-weight: 600;
+}
+section#content .content-wrap{
+    padding-top: 30px;
+}
+.custom-carousel .owl-dots{
+    display: none;
+}
+section#content .bottommargin{
+    margin-bottom: 15px !important;
+}
+section#content .entry:after{
+    margin-top: 0px;
+    height: 1px;
+}
+section#content .post-navigation{
+    margin-bottom: 30px;
+}
+    /* custom slide */
+.custom-carousel .owl-nav button.owl-next{
+    top: 32%;
+}
+.custom-carousel .owl-nav button.owl-prev{
+    top: 32%;
+}
+.realseNews .entry-image{
+    margin-bottom: 15px;
+}
+.releaseProduct .fancy-title{
+    margin-bottom: 0;
+}
+.releaseNews .fancy-title{
+    margin-bottom: 15px;
+}

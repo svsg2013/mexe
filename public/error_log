@@ -1,0 +1,4 @@
+[11-Mar-2019 23:04:06 Asia/Ho_Chi_Minh] PHP Fatal error:  Cannot destroy active lambda function in /home/pnenqithosting/public_html/shopfoyo.com/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 1175
+[11-Mar-2019 23:04:07 Asia/Ho_Chi_Minh] PHP Fatal error:  Cannot destroy active lambda function in [no active file] on line 0
+[12-Mar-2019 08:26:06 Asia/Ho_Chi_Minh] PHP Fatal error:  Cannot destroy active lambda function in /home/pnenqithosting/public_html/shopfoyo.com/vendor/symfony/var-dumper/Cloner/AbstractCloner.php on line 463
+[12-Mar-2019 11:41:34 Asia/Ho_Chi_Minh] PHP Fatal error:  Cannot destroy active lambda function in [no active file] on line 0
