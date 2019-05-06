@@ -13,21 +13,21 @@
                     </ul>
                 </li>
                 <li>
+                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-menu"></i> <span>Tin Tức</span> <span class="menu-arrow"></span></a>
+                    <ul class="nav-second-level nav" aria-expanded="true">
+                        <li><a href="{{route('catefengshui.create')}}"><i class="fi-circle-plus"></i> Add Category</a></li>
+                        <li><a href="{{route('catefengshui.index')}}"><i class="fi-layers"></i> List Categories</a></li>
+                        <li><a href="{{route('fengshui.create')}}"><i class="fi-circle-plus"></i> Add Article</a></li>
+                        <li><a href="{{route('fengshui.index')}}"><i class="fi-layers"></i> List Articles</a></li>
+                    </ul>
+                </li>
+                <li>
                     <a href="javascript: void(0);" aria-expanded="true"><i class="fi-paper"></i> <span> Khuyến Mãi</span> <span class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
                         {{--<li><a href="{{route('category.create')}}"><i class="fi-circle-plus"></i> Add Category</a></li>--}}
                         <li><a href="{{route('category.index')}}"><i class="fi-layers"></i> List Categories</a></li>
                         <li><a href="{{route('news.create')}}"><i class="fi-circle-plus"></i> Add Article</a></li>
                         <li><a href="{{route('news.index')}}"><i class="fi-layers"></i> List Articles</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-menu"></i> <span>Tin Tức</span> <span class="menu-arrow"></span></a>
-                    <ul class="nav-second-level nav" aria-expanded="true">
-                        {{--<li><a href="{{route('catefengshui.create')}}"><i class="fi-circle-plus"></i> Add Category</a></li>--}}
-                        <li><a href="{{route('catefengshui.index')}}"><i class="fi-layers"></i> List Categories</a></li>
-                        <li><a href="{{route('fengshui.create')}}"><i class="fi-circle-plus"></i> Add Article</a></li>
-                        <li><a href="{{route('fengshui.index')}}"><i class="fi-layers"></i> List Articles</a></li>
                     </ul>
                 </li>
                 <li>

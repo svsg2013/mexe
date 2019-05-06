@@ -1,10 +1,1 @@
-<?php
-
-namespace App;
-
-use Illuminate\Database\Eloquent\Model;
-
-class ChildTtPhongthuy extends Model
-{
-    //
-}
+<?phpnamespace App;use Illuminate\Database\Eloquent\Model;class ChildTtPhongthuy extends Model{    protected $fillable = [        'cateParen_id',        'lvl'    ];}

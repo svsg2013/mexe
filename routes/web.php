@@ -33,10 +33,10 @@ Route::group(['prefix' => 'admin','middleware'=>'auth'], function () {
         //Furniture
         Route::resource('furniture', 'FurnitureController', ['except' => 'destroy']);
         Route::get('furniture/{idDelete}/destroy', 'FurnitureController@destroy')->name('furs.delete');
-        // cate News and Feng Shui
+        // Tin tuc - cate
         Route::resource('catefengshui', 'CateTtPhongthuyController', ['except' => 'destroy']);
         Route::get('catefengshui/{idDelete}/destroy', 'CateTtPhongthuyController@destroy')->name('fengshui.delete');
-        //News and Feng shui
+        // Tin tuc -article
         Route::resource('fengshui', 'FengshuiController', ['except' => 'destroy']);
         Route::get('fengshui/{idDelete}/destroy', 'FengshuiController@destroy')->name('feng.delete');
         //Prods

@@ -13,21 +13,21 @@
                     </ul>
                 </li>
                 <li>
+                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-menu"></i> <span>Tin Tức</span> <span class="menu-arrow"></span></a>
+                    <ul class="nav-second-level nav" aria-expanded="true">
+                        <li><a href="<?php echo e(route('catefengshui.create')); ?>"><i class="fi-circle-plus"></i> Add Category</a></li>
+                        <li><a href="<?php echo e(route('catefengshui.index')); ?>"><i class="fi-layers"></i> List Categories</a></li>
+                        <li><a href="<?php echo e(route('fengshui.create')); ?>"><i class="fi-circle-plus"></i> Add Article</a></li>
+                        <li><a href="<?php echo e(route('fengshui.index')); ?>"><i class="fi-layers"></i> List Articles</a></li>
+                    </ul>
+                </li>
+                <li>
                     <a href="javascript: void(0);" aria-expanded="true"><i class="fi-paper"></i> <span> Khuyến Mãi</span> <span class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
                         
                         <li><a href="<?php echo e(route('category.index')); ?>"><i class="fi-layers"></i> List Categories</a></li>
                         <li><a href="<?php echo e(route('news.create')); ?>"><i class="fi-circle-plus"></i> Add Article</a></li>
                         <li><a href="<?php echo e(route('news.index')); ?>"><i class="fi-layers"></i> List Articles</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-menu"></i> <span>Tin Tức</span> <span class="menu-arrow"></span></a>
-                    <ul class="nav-second-level nav" aria-expanded="true">
-                        
-                        <li><a href="<?php echo e(route('catefengshui.index')); ?>"><i class="fi-layers"></i> List Categories</a></li>
-                        <li><a href="<?php echo e(route('fengshui.create')); ?>"><i class="fi-circle-plus"></i> Add Article</a></li>
-                        <li><a href="<?php echo e(route('fengshui.index')); ?>"><i class="fi-layers"></i> List Articles</a></li>
                     </ul>
                 </li>
                 <li>
@@ -55,7 +55,6 @@
                 </li>
                 <li><a href="<?php echo e(route('pages.index')); ?>"><i class="fi-ribbon"></i> <span>Pages</span> </a></li>
                 <li><a href="<?php echo e(route('comment.index')); ?>"><i class="fi-speech-bubble"></i> <span>FAQs</span> </a></li>
-                
                 <li><a href="<?php echo e(route('system.edit',1)); ?>"><i class="fi-cog"></i> <span>Setting</span> </a></li>
             </ul>
         </div>
