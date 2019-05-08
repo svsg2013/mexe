@@ -91,9 +91,12 @@ class CateTtPhongthuyEloquentRepository extends EloquentRepository implements Ca
 
     public function getDelete($id)
     {
-        $categet = ChildFur::where('lvl', $id)->count();
+        // bien kiem tra xem co phai la muc con ko, muc con != 0
+        $categet = DB::table('child_tt_phongthuys')
+            ->where('lvl',$id)
+            ->count();
         if ($categet == 0) {
-            $getid = CateFur::find($id);
+            $getid = CateTtPhongthuy::find($id);
             $getid->delete();
             return redirect()->route('catefengshui.index')->with('thongbao', 'Xóa thành công');
         } else {
